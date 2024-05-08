@@ -14,7 +14,7 @@ function Intro() {
             Chris Tran 
           </h1>
           <h2 className='text-[#ffffff]  text-2xl md:text-3xl  py-1  animate-fade-left animate-duration-700 animate-delay-[1000ms] animate-ease-in animate-fill-both  '>
-            Frontend Web Developer
+            Frontend Developer
           </h2>
           
 
