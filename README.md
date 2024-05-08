@@ -1,47 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-   body{background-color: Black;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;  
-        align-items: center;
-        height: auto;
-        width: auto;
-        font-family: sans-serif;
-    }
-    
-    h1 {
-      font-weight: bolder;
-    }
-    
-    h2 {
-      margin: 0
-    }
-    
-    h4{
-      height: 5px
-    }
-    .title {
-      display: flex;
-      align-items: center;
-    }
-    
   
-    
-    
-    
-   
-  </style>
 </head>
 <body>
-  <div >
+ 
    <h1>
      PORTFOLIO
    </h1>   
-  </div>
+  
   
   <div>
     This website will display the projects that I will be 
