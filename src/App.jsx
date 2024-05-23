@@ -5,12 +5,10 @@ import Contact from './components/Contact'
 import Intro from './components/Intro'
 import Navbar from './components/Navbar'
 import { Projects } from './components/Projects'
+import { Route, Routes } from 'react-router-dom'
 import { inject } from '@vercel/analytics';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
-import { Route, Routes } from 'react-router-dom'
-
-
 
 inject();
 
