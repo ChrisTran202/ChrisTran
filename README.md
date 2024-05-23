@@ -17,7 +17,7 @@
  
     
     
- <a href="https://chris-tran-christran202s-projects.vercel.app/"> Website Link: <a>https://chris-tran.vercel.app/</a>
+ <a href="https://chris-tran.vercel.app/"> Website Link: <a>https://chris-tran.vercel.app/</a>
     
 
   Looking for work: <div class="yes">YES</div>
