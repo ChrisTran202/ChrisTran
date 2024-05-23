@@ -1,5 +1,45 @@
-- 👋 Hi, I’m Chris, I am currently learning Javascript, HTML and CSS. I want to learn as much as possible to create technology or tools that one day  can help people. Please contact me via email christran202@gmail.com.
-<!---
-ChrisTran202/ChrisTran202 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!DOCTYPE html>
+<html>
+<head>
+  
+</head>
+<body>
+ 
+   <h1>
+     PORTFOLIO
+   </h1>   
+  
+  
+  <div>
+    This website will display the projects that I will be 
+    creating to showcase my ideas and creativity.
+  </div>
+ 
+    
+    
+ <a href="https://chris-tran.vercel.app/"> Website Link: <a>https://chris-tran.vercel.app/</a>
+    
+
+  Looking for work: <div class="yes">YES</div>
+
+  Build: Vite 5.2.0
+  react: 18.2.0
+
+  
+  <h2>CSS</h2><br/>
+  <h4>tailwindcss</h4>
+  <h4> tailwind-css-animate</h4>
+   <h4>react-icons</h4><br/>
+  
+    
+    
+  <h2>Events:</h2>
+  <ul>
+    <li>
+       <h3>5/8/2024 Things are still in Production and testing.</h3>
+    </li>  
+  </ul>
+    
+  
+  </body>
+  </html>
