@@ -23,7 +23,7 @@
   Looking for work: <div class="yes">YES</div>
 
   Build: Vite 5.2.0
-  react: 18.2.0
+  React: 18.2.0
 
   
   <h2>CSS</h2><br/>
