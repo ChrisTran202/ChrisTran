@@ -31,18 +31,6 @@ function App() {
          </Routes>
          
       </div>
-      // single page layout
-    // <>
-    // <div className='relative z-10'>
-      
-    //     <Navbar  />
-    //     <Intro />
-    //     <About/>
-    //     <Projects />
-    //     <Contact />
-    //   </div>
-    // </>
-    // 1
   )
 }
 
