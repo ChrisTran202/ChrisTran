@@ -1,5 +1,6 @@
 import {Link } from 'react-router-dom'
-
+import Graycat from '../assets/graycat.png'
+import Orangecat from '../assets/orangecat.png'
 
 export const About = () => {
     
@@ -24,6 +25,15 @@ export const About = () => {
           <h2 className="text-white p-5 md:w-[60vw] text-center md:text-2xl ">
             When I am not glued to the screen, you will find me tending the garden, casting lines with my wife, or simply goofing around with our two cats.
           </h2>
+          {/* Cat Icons */}
+          <div className=' h-[1rem] grid grid-cols-2 gap-[50rem] justify-between items-center'>
+            <div>
+             <img src={Graycat} alt="car" className=' h-20 animate-bounce  animate-duration-1000 animate-delay-[200ms]' /> 
+            </div>
+            <div>
+              <img src={Orangecat} alt="car" className=' h-20 rotate-15 motion-safe:animate-spin animate-duration-1000  animate-delay-2000ms' />
+            </div>
+           </div>
         </div>
       </div>
       
@@ -40,6 +50,8 @@ export const About = () => {
             Projects {rightArrow} 
           </Link>
         </nav>
+
+        
         
       </div>
       
