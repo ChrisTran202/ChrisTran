@@ -17,21 +17,21 @@ export const About = () => {
             ABOUT
           </h1>
           {/* description */}
-          <h2 className=" text-white text-center p-5 md:pt-[2rem] md:w-[60vw] md:h-auto md:text-2xl">
+          <h2 className=" text-white text-center p-5 md:pt-[2rem] md:w-[60vw] md:h-auto md:text-[20px] lg:text-[25px]">
               In the year 2022, I broke free from the grind of blue-collar jobs, diving headfirst into the realm of front-end web development. 
             I got hooked when I started creating things turning it from code into functional features and responsive designs for the web. 
             There are so many things to learn that you will always end up going down the rabbit hole of things to know and many different ways to do one the thing.
           </h2>  
-          <h2 className="text-white p-5 md:w-[60vw] text-center md:text-2xl ">
+          <h2 className="text-white p-5 md:w-[60vw] text-center md:text-[20px] lg:text-[25px] ">
             When I am not glued to the screen, you will find me tending the garden, casting lines with my wife, or simply goofing around with our two cats.
           </h2>
           {/* Cat Icons */}
-          <div className=' h-[1rem] grid grid-cols-2 gap-[50rem] justify-between items-center'>
+          <div className=' h-[70px] md:h-[1rem] lg:h-[100px] grid grid-cols-2 gap-[7rem] md:gap-[20rem]  justify-between items-center'>
             <div>
-             <img src={Graycat} alt="car" className=' h-20 animate-bounce  animate-duration-1000 animate-delay-[200ms]' /> 
+             <img src={Graycat} alt="car" className=' h-20 lg:h-[8rem] animate-bounce  animate-duration-1000 animate-delay-[200ms]' /> 
             </div>
             <div>
-              <img src={Orangecat} alt="car" className=' h-20 rotate-15 motion-safe:animate-spin animate-duration-1000  animate-delay-2000ms' />
+              <img src={Orangecat} alt="car" className=' h-20 lg:h-[8rem] rotate-15 motion-safe:animate-spin animate-duration-1000  animate-delay-2000ms' />
             </div>
            </div>
         </div>
