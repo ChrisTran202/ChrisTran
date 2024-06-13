@@ -9,7 +9,7 @@ export const About = () => {
     const leftArrow = '<'
     
   return (
-    <section id="about" className="flex flex-col items-center justify-center pt-[5rem] h-[90vh]  animate-fade-up animate-duration-1000 animate-delay-[200ms] animate-ease-in-out animate-fill-both ">
+    <section id="about" className="flex flex-col items-center justify-center pt-[5rem] h-auto animate-fade-up animate-duration-1000 animate-delay-[200ms] animate-ease-in-out animate-fill-both ">
       <div className="border-[#ff9d48] border-[.1rem] w-[80%] md:h-[85vh]  rounded-[5rem] ">
         <div className=' flex flex-col items-center pb-[2rem]'>
           {/* title */}
@@ -18,7 +18,7 @@ export const About = () => {
           </h1>
           {/* description */}
           <div className='h-[60vh] md:h-[60vh] w-[50vw] flex flex-col items-center justify-center '>
-            <h2 className=" text-white text-center text-[15px] p-5 md:pt-[2rem] md:w-auto h-[35vh] md:h-[24rem] md:text-[20px] lg:text-[25px]">
+            <h2 className=" text-white text-center text-[15px] p-5 md:pt-[2rem] md:w-auto h-[35vh] md:h-[18rem] md:text-[20px] lg:text-[25px]">
                 In the year 2022, I broke free from the grind of blue-collar jobs, diving headfirst into the realm of front-end web development. 
               I got hooked when I started creating things turning it from code into functional features and responsive designs for the web. 
               There are so many things to learn that you will always end up going down the rabbit hole of things to know and many different ways to do one the thing.
