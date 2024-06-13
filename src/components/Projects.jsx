@@ -7,13 +7,13 @@ export const Projects = () => {
 
   return (
     <section className="flex flex-col items-center justify-center pt-[5rem] h-[100vh] animate-fade-up animate-once animate-ease-linear ">
-      <div className="border-[#ff9d48] border-[.1rem] w-[80%] h-[70vh] rounded-[5rem]">
+      <div className="border-[#ff9d48] border-[.1rem] w-[80%] h-[90vh] rounded-[5rem]">
         {/* title */}
         <h1 id="title" className='flex flex-col items-center bg-gradient-to-tr from-red-400 via-violet-800 to-yellow-500 bg-clip-text text-transparent text-4xl font-bold pt-[2rem] '>
             PROJECTS
         </h1>
         {/* 3 card project display */}
-        <div className=' flex flex-col md:flex-row items-center justify-center pb-[2rem] scroll-smooth overflow-x-scroll scrollbar-hide h-[28rem] rounded-b-[5rem] text-center'>
+        <div className=' flex flex-col md:flex-row items-center justify-center pb-[2rem] scroll-smooth overflow-x-scroll scrollbar-hide h-[60vh] rounded-b-[5rem] text-center'>
 
           <div className="flex flex-col items-center gap-5 p-5 pt-[2rem]">
             <h1 className="text-white p-1">Project 1</h1>

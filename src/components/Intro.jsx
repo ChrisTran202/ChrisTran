@@ -9,7 +9,7 @@ function Intro() {
   const rightArrow = '>'
   return (
     
-    <section className='flex flex-col gap-5 items-center h-[90vh] md:h-[100vh] justify-center pt-[1rem] '>
+    <section className='flex flex-col gap-5 items-center h-[100vh] md:h-[100vh] justify-center pt-[1rem] '>
       <div className='flex bg-[url(./assets/Skyscape.jpg)]  bg-[#21083e]  sm:bg-auto md:bg-cover  bg-no-repeat bg-center rounded-t-[25rem] flex-col items-center w-[80%] h-[90vh] md:h-[90vh] rounded-[5rem] border-[#ff9d48] border-[.1rem]'>
       {/* title */}
         <div className=' font-bold flex flex-col items-center  '>
