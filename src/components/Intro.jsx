@@ -10,7 +10,7 @@ function Intro() {
   return (
     
     <section className='flex flex-col gap-5 items-center h-auto  justify-center pt-[1rem] '>
-      <div className='flex bg-[url(./assets/Skyscape.jpg)]  bg-[#21083e]  sm:bg-auto md:bg-cover  bg-no-repeat bg-center rounded-t-[25rem] flex-col items-center w-[80%] h-[88vh] md:h-[90vh] rounded-[5rem] border-[#ff9d48] border-[.1rem]'>
+      <div className='flex bg-[url(./assets/Skyscape.jpg)]  bg-[#21083e]  sm:bg-auto md:bg-cover  bg-no-repeat bg-center rounded-t-[25rem] flex-col items-center w-[80%] h-[50rem] md:h-[90vh] rounded-[5rem] border-[#ff9d48] border-[.1rem]'>
       {/* title */}
         <div className=' font-bold flex flex-col items-center  '>
           <h1 id="title" className=' bg-gradient-to-r from-rose-400 to-orange-300 bg-clip-text text-transparent text-[3rem] md:text-[5rem] xl:text-[8rem] h-[9rem] md:h-[11rem] pt-[4rem] md:pt-[2rem] drop-shadow-2xl   animate-fade-right animate-duration-700 animate-ease-in animate-fill-both'>

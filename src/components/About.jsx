@@ -17,13 +17,13 @@ export const About = () => {
             ABOUT
           </h1>
           {/* description */}
-          <div className='h-[60vh] md:h-[60vh] w-[50vw] flex flex-col items-center justify-center '>
-            <h2 className=" text-white text-center text-[15px] p-5 md:pt-[2rem] md:w-auto h-[35vh] md:h-[18rem] md:text-[20px] lg:text-[25px]">
+          <div className='h-[60vh] md:h-[60vh] w-[50vw] flex flex-col items-center justify-center  '>
+            <h2 className=" text-white text-center text-[14px] w-[70vw] p-5 md:pt-[2rem] md:w-auto h-[34vh] md:h-[25rem] md:text-[20px] lg:text-[25px]">
                 In the year 2022, I broke free from the grind of blue-collar jobs, diving headfirst into the realm of front-end web development. 
               I got hooked when I started creating things turning it from code into functional features and responsive designs for the web. 
               There are so many things to learn that you will always end up going down the rabbit hole of things to know and many different ways to do one the thing.
             </h2>  
-            <h2 className="text-white text-[15px] p-5 md:w-[50vw] text-center md:text-[20px] lg:text-[25px] ">
+            <h2 className="text-white text-[14px] p-5 w-[70vw] md:w-[50vw] text-center md:text-[20px] lg:text-[25px] ">
               When I am not glued to the screen, you will find me tending the garden, casting <br/>lines with my wife, or simply goofing around with our two cats.
             </h2>
           </div>
