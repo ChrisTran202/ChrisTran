@@ -44,7 +44,7 @@ export const Projects = () => {
         
       </div>    
         
-      <div className="flex flex-row items-center justify-between  w-[80%] pt-2">
+      <div className="flex flex-row items-center justify-between  w-[80%] m-5">
         {/* left arrow */}
         <nav className="flex  items-center  bg-gradient-to-r from-rose-400 to-orange-300 bg-clip-text text-transparent font-bold hover:text-gray-100 hover:scale-125 ease-in-out duration-200 hover:shadow-xl text-[1.3rem]  ">
           <Link id="title" to='/About' className='md:text-3xl'> 

@@ -9,8 +9,8 @@ export const About = () => {
     const leftArrow = '<'
     
   return (
-    <section id="about" className="flex flex-col items-center justify-center pt-[5rem] h-auto animate-fade-up animate-duration-1000 animate-delay-[200ms] animate-ease-in-out animate-fill-both ">
-      <div className="border-[#ff9d48] border-[.1rem] w-[80%] md:h-[85vh]  rounded-[5rem] ">
+    <section id="about" className="flex flex-col items-center justify-center pt-[5rem] md:h-[100vh] animate-fade-up animate-duration-1000 animate-delay-[200ms] animate-ease-in-out animate-fill-both ">
+      <div className="border-[#ff9d48] border-[.1rem] w-[80%] md:h-[90vh]  rounded-[5rem] ">
         <div className=' flex flex-col items-center pb-[2rem]'>
           {/* title */}
           <h1 id="title" className='bg-gradient-to-tr from-red-400 via-violet-800 to-yellow-500 bg-clip-text text-transparent text-4xl md:text-6xl font-bold pt-[2rem] '>
@@ -41,7 +41,7 @@ export const About = () => {
       </div>
       
 {/* left button */}
-      <div className="flex flex-row items-center justify-between  w-[80%] pt-">
+      <div className="flex flex-row items-center justify-between  w-[80%] m-5">
         <nav className="flex  items-center  bg-gradient-to-r from-rose-400 to-orange-300 bg-clip-text text-transparent hover:text-gray-100 hover:scale-125 ease-in-out duration-200 hover:shadow-xl font-bold text-[1.3rem] ">
           <Link id="title" to='/' className="md:text-3xl">
             {leftArrow} Home  
