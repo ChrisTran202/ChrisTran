@@ -9,8 +9,8 @@ export const About = () => {
     const leftArrow = '<'
     
   return (
-    <section id="about" className="flex flex-col items-center justify-center pt-[5rem] md:h-[100vh] animate-fade-up animate-duration-1000 animate-delay-[200ms] animate-ease-in-out animate-fill-both ">
-      <div className="border-[#ff9d48] border-[.1rem] w-[80%] md:h-[90vh]  rounded-[5rem] ">
+    <section id="about" className="flex flex-col items-center justify-center pt-[5rem] h-[100vh] md:h-[100vh] animate-fade-up animate-duration-1000 animate-delay-[200ms] animate-ease-in-out animate-fill-both ">
+      <div className="border-[#ff9d48] border-[.1rem] w-[80%]  rounded-[5rem] ">
         <div className=' flex flex-col items-center pb-[2rem]'>
           {/* title */}
           <h1 id="title" className='bg-gradient-to-tr from-red-400 via-violet-800 to-yellow-500 bg-clip-text text-transparent text-4xl md:text-6xl font-bold pt-[2rem] '>

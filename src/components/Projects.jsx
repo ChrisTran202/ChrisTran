@@ -7,7 +7,7 @@ export const Projects = () => {
 
   return (
     <section className="flex flex-col items-center justify-center pt-[5rem] h-[100vh] animate-fade-up animate-once animate-ease-linear ">
-      <div className="border-[#ff9d48] border-[.1rem] w-[80%] h-[90vh] rounded-[5rem]">
+      <div className="border-[#ff9d48] border-[.1rem] w-[80%] h-[70vh] rounded-[5rem]">
         {/* title */}
         <h1 id="title" className='flex flex-col items-center bg-gradient-to-tr from-red-400 via-violet-800 to-yellow-500 bg-clip-text text-transparent text-4xl font-bold pt-[2rem] '>
             PROJECTS
