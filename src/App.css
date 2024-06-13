@@ -7,6 +7,7 @@
 @tailwind utilities;
 
 body, html {
+  background-color: black;
   height: 100%;
   font-family: "Outfit", sans-serif;
   background-image: linear-gradient(to right bottom, #000000, #060606, #0c0c0c, #111111, #151515, #171719, #19181e, #1a1a22, #181a28, #151b2e, #0e1c35, #022c58);
