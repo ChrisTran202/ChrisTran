@@ -1,9 +1,9 @@
 
 import React from 'react';
 import '../components/carousel/Carousel.css'
-import Car from '../assets/car.jpg'
+
 const images = [
-    href={Car} , 
+    'assets/car.jpg' , 
   'https://images.unsplash.com/photo-1523438097201-512ae7d59c44?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80', 
   'https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80']
 
@@ -65,7 +65,7 @@ const Carousel = () => {
 
   // Tailwind styles. Most importantly notice position absolute, this will sit relative to the carousel's outer div.
   const arrowStyle =
-    'absolute text-white text-2xl z-10 bg-black h-10 w-10 rounded-full opacity-75 flex items-center justify-center';
+    'absolute text-white text-2xl z-10 bg-black h-10 w-10 rounded-full opacity-75 flex items-center justify-space-between';
   // variables for left/right buttons
  
   // Let's create dynamic buttons. It can be either left or right. Using
@@ -75,7 +75,7 @@ const Carousel = () => {
     <button
       type="button"
       onClick={isLeft ? previousImage : nextImage}
-      className={`${arrowStyle} ${isLeft ? 'left-2' : 'right-2'} font-bold text-[#ff8a42] text-6xl hover:text-gray-100  ease-in-out duration-200 hover:shadow-xl bg-clip-text  drop-xl hover:ease-in-out hover:duration-300 hover:scale-125`}
+      className={`${arrowStyle} ${isLeft ? 'left-2' : 'right-2'} font-bold text-[#ff8a42] text-6xl  hover:text-gray-100  ease-in-out duration-200 hover:shadow-xl bg-clip-text  drop-xl hover:ease-in-out hover:duration-300 hover:scale-125`}
       style={{ top: '40%' }}
     >
       <span role="img" aria-label={`Arrow ${isLeft ? 'left' : 'right'}`}>
@@ -90,20 +90,28 @@ const Carousel = () => {
   // Finally the image itself will be 100% of a parent div. Outer div is
   // set with position relative, so we can place our cotrol buttons using
   // absolute positioning on each side of the image.
-  <div className='flex flex-col items-center justify-center'>
-    <div className=" flex flex-row   items-center  w-[60%]  ">
-      <div>hi</div>
+  <div className='flex flex-col justify-center items-center'>
+  <div className='Flex flex-col justify-center items-center  grid grid-cols-2 w-[75vw] h-[60vh]'>
+  <div className='flex flex-col items-center pt-10'>
+    <div className=" flex flex-row  items-center  w-[90%]  ">
+      
       <div className=" relative ">
         <div className="carousel rounded-[5rem]">
           {sliderControl(true)}
           {images.map((img, i) => (
             <div className="flex  justify-center items-center w-full flex-shrink-0 rounded- " key={img} ref={refs[i]}>
-              <img src={img} className="w-full object-contain" />
+              <img src={img} className="w-full object-contain rounded-2xl" />
             </div>
+            
           ))}
           {sliderControl()}
         </div>
       </div>
+      <div>
+        hi
+      </div>
+    </div>
+    </div>
     </div>
     </div>
   );
