@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom'
+import Carousel from '../components/Carousel.jsx'
+
+
 export const Projects = () => {
 
   // variables for left/right buttons
@@ -13,7 +16,8 @@ export const Projects = () => {
             PROJECTS
         </h1>
         {/* 3 card project display */}
-        <div className=' flex flex-col md:flex-row items-center justify-center pb-[2rem] scroll-smooth overflow-x-scroll scrollbar-hide h-[60vh] rounded-b-[5rem] text-center'>
+        <Carousel />
+        {/* <div className=' flex flex-col md:flex-row items-center justify-center pb-[2rem] scroll-smooth overflow-x-scroll scrollbar-hide h-[60vh] rounded-b-[5rem] text-center'>
 
           <div className="flex flex-col items-center gap-5 p-5 pt-[2rem]">
             <h1 className="text-white p-1">Project 1</h1>
@@ -40,7 +44,7 @@ export const Projects = () => {
               </h2>
           </div>
           
-        </div>
+        </div> */}
         
       </div>    
         
