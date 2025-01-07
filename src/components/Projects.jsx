@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
-import Carousel from '../components/Carousel.jsx'
-
+import Carousel from './carousel/Carousel'
+// import Carousel from '../components/Carousel.jsx'
+// import { Carousel, IconButton } from "@material-tailwind/react";
 
 export const Projects = () => {
 
+ 
   // variables for left/right buttons
   const leftArrow = '<'
   const rightArrow = '>'
@@ -15,37 +17,13 @@ export const Projects = () => {
         <h1 id="title" className='flex flex-col items-center bg-gradient-to-tr from-red-400 via-violet-800 to-yellow-500 bg-clip-text text-transparent text-4xl font-bold pt-[2rem] '>
             PROJECTS
         </h1>
-        {/* 3 card project display */}
-        <Carousel />
-        {/* <div className=' flex flex-col md:flex-row items-center justify-center pb-[2rem] scroll-smooth overflow-x-scroll scrollbar-hide h-[60vh] rounded-b-[5rem] text-center'>
 
-          <div className="flex flex-col items-center gap-5 p-5 pt-[2rem]">
-            <h1 className="text-white p-1">Project 1</h1>
-            <h2 className="text-white p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Adipisci dolorum, eveniet quod deserunt eaque tenetur explicabo quas tempora. 
-                Eius dignissimos animi aliquid quis ducimus possimus deleniti magni tenetur eum quasi!
-            </h2>
-          </div>
-
-          <div className="flex flex-col items-center gap-5 p-5 pt-[2rem]">
-            <h1 className="text-white p-1">Project 1</h1>
-            <h2 className="text-white p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Adipisci dolorum, eveniet quod deserunt eaque tenetur explicabo quas tempora. 
-                Eius dignissimos animi aliquid quis ducimus possimus deleniti magni tenetur eum quasi!
-            </h2>
-
-          </div>
-
-          <div className="flex flex-col items-center gap-5 p-5 pt-[2rem]">
-              <h1 className="text-white p-1">Project 1</h1>
-              <h2 className="text-white p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Adipisci dolorum, eveniet quod deserunt eaque tenetur explicabo quas tempora. 
-                  Eius dignissimos animi aliquid quis ducimus possimus deleniti magni tenetur eum quasi!
-              </h2>
-          </div>
+        {/* Carousel display */}
+        <div className='items-center justify-center w-[100%] h-[100%] '>
+          <Carousel />
+        </div>
           
-        </div> */}
-        
+
       </div>    
         
       <div className="flex flex-row items-center justify-between  w-[80%] m-5">
