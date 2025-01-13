@@ -1,7 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { IoNewspaper } from "react-icons/io5";
-import car from '../assets/car.jpg'
+import profileImg from '../assets/profileImg.png'
 import { Link } from 'react-router-dom';
 
 function Intro() {
@@ -13,17 +13,19 @@ function Intro() {
       <div className='flex bg-[url(./assets/Skyscape.jpg)]  bg-[#21083e]  sm:bg-auto md:bg-cover  bg-no-repeat bg-center rounded-t-[25rem] flex-col items-center w-[80%] h-[90vh] md:h-[90vh] rounded-[5rem] border-[#ff9d48] border-[.1rem]'>
       {/* title */}
         <div className=' font-bold flex flex-col items-center  '>
-          <h1 id="title" className=' bg-gradient-to-r from-rose-400 to-orange-300 bg-clip-text text-transparent text-[3rem] md:text-[5rem] xl:text-[8rem] h-[9rem] md:h-[11rem] pt-[4rem] md:pt-[2rem] drop-shadow-2xl   animate-fade-right animate-duration-700 animate-ease-in animate-fill-both'>
+          <h1 id="title" className=' bg-gradient-to-r from-rose-400 to-orange-300 bg-clip-text text-transparent text-[3rem] md:text-[5rem] xl:text-[8rem] h-[9rem] md:h-[14rem] pt-[3rem] md:pt-[3rem] drop-shadow-2xl   animate-fade-right animate-duration-700 animate-ease-in animate-fill-both'>
             Chris Tran 
           </h1>
           <h2 id="title"  className='text-[#ffffff]  text-[1.3rem] md:text-4xl  animate-fade-left animate-duration-700 animate-delay-[700ms] animate-ease-in animate-fill-both  '>
             Frontend Web Developer
           </h2>
           
-          <div className='py-[3rem] flex-col items-center justify-center'>
+          <div className='py-[10rem] flex-col items-center justify-center '>
             {/* profile picture */}
-            <div className="animate-rotate-[-3deg] animate-duration-2000 animate-ease-in animate-fill-both">
-              <img src={car} className=' rounded-[5rem] border-[#ff9d48] border-[.1rem] w-[250px]  h-[250px] md:w-[400px] md:h-[350px] shadow-2xl object-cover animate-fade-up animate-duration-700 animate-delay-[800ms] animate-ease-in animate-fill-both '/>
+            <div className="flex flex-row items-center justify-center w-[250px] h-[250px] md:w-[400px] md:h-[250px] rounded-[5rem]">
+              
+                <img src={profileImg} className='overflow-hidden rounded-[20rem] w-[35vw] h-[55vh] shadow-2xl object-cover animate-fade-up animate-duration-700 animate-delay-[800ms] animate-ease-in animate-fill-both '/>
+              
             </div>
             <div className="flex flex-row items-center justify-center">
               {/* linkedin */}
