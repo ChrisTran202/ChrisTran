@@ -35,7 +35,7 @@ const Carousel = () => {
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 4000 }}
         breakpoints={{
           640: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
@@ -45,9 +45,9 @@ const Carousel = () => {
       >
         {projects.map((project, index) => (
           <SwiperSlide key={index}
-            className=" hover:scale-250 ease-in-out duration-400 hover:shadow-xl  "
+            
           >
-            <div className="bg-white shadow-[#ffa600] shadow-lg rounded-lg overflow-hidden bg-clip-text text-transparent">
+            <div className="bg-white shadow-[#ffa600] shadow-lg rounded-lg overflow-hidden bg-clip-text text-transparent hover:scale-350 ease-in-out duration-400 hover:shadow-xl">
               <img
                 src={project.image}
                 alt={project.title}
