@@ -32,7 +32,7 @@ function Intro()  {
             {/* profile picture */}
               <img 
                 src={profileImg} 
-                className=' rounded-[20rem] w-[250px]'
+                className=' rounded-[20rem] w-[200px]'
               />
               
             <div className='flex flex-row items-center justify-center'>

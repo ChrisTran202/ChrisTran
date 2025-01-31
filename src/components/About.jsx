@@ -11,7 +11,8 @@ export const About = () => {
   return (
     <section 
       id='about' 
-      className='flex flex-col items-center justify-center pt-[5rem] h-[100vh] md:h-[100vh] animate-fade-up animate-duration-1000 animate-delay-[200ms] animate-ease-in-out animate-fill-both '>
+      className='flex flex-col items-center justify-center pt-[5rem] h-[100vh] md:h-[100vh] animate-fade-up animate-duration-1000 animate-delay-[200ms] animate-ease-in-out animate-fill-both '
+    >
 
       <div className='border-[#ff9d48] border-[.1rem] w-[80%]  rounded-[5rem] '>
         <div className=' flex flex-col items-center pb-[2rem]'>
@@ -24,15 +25,15 @@ export const About = () => {
           </h1>
 
           {/* description */}
-          <div className='h-[60vh] md:h-[60vh] w-[50vw] flex flex-col items-center justify-center'>
-            <h2 className=' text-white text-center text-[14px] w-[70vw] p-5 md:pt-[2rem] md:w-auto h-[34vh] md:h-[25rem] md:text-[20px] lg:text-[25px]'>
+          <div className='flex-col  justify-items-center h-[60vh] md:h-[60vh] w-[50vw] md:w-[40vw]'>
+            <h2 className=' text-white text-center text-[13px] sm:text-[18px] w-[55vw] p-5 md:pt-[2rem] h-[40vh] md:h-[20rem]  md:text-[20px] lg:text-[23px]'>
               Not Knowing and diving headfirst into the realm of front-end web development. 
               I got hooked when I started creating things, turning it from code into functional features and responsive designs for the web. 
               There are so many things to learn that you will always end up going down the rabbit hole of so many different ways to do that one simple thing.
             </h2>  
-            <h2 className='text-white text-[14px] p-5 w-[70vw] md:w-[50vw] text-center md:text-[20px] lg:text-[25px]'>
+            <h2 className='text-white text-center text-[13px] sm:text-[18px] pt-5 w-[55vw]  md:text-[20px] lg:text-[23px]'>
                 When I am not glued to the screen, you will find me tending the garden, casting 
-              <br/>lines with my wife, or simply goofing around with our two cats.
+                lines with my wife, or simply goofing around with our two cats.
             </h2>
           </div>
 

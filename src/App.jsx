@@ -1,7 +1,7 @@
 
 import './App.css'
 import { About }  from './components/About'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import Intro from './components/Intro'
 import Navbar from './components/Navbar'
 import { Projects } from './components/Projects'
@@ -27,7 +27,7 @@ function App() {
           <Route path='/' element={<Intro/>}> </Route>
           <Route path='/about' element={<About/>}></Route>
           <Route path='/projects' element={<Projects/>}></Route>
-          <Route path='/contact' element={<Contact/>}></Route>
+          {/* <Route path='/contact' element={<Contact/>}></Route> */}
          </Routes>
          
       </div>
