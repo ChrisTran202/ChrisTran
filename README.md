@@ -34,11 +34,7 @@
     
     
   <h2>Events:</h2>
-  <ul>
-    <li>
-       <h3>5/8/2024 Things are still in Production and testing.</h3>
-    </li>  
-  </ul>
+  
     
   
   </body>
