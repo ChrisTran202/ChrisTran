@@ -34,11 +34,7 @@
     
     
   <h2>Events:</h2>
-  <ul>
-    <li>
-       
-    </li>  
-  </ul>
+  
     
   
   </body>
