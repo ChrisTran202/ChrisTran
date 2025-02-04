@@ -11,7 +11,7 @@ export const About = () => {
   return (
     <section 
       id='about' 
-      className='flex flex-col items-center justify-center pt-[5rem] h-[100vh] md:h-[100vh] animate-fade-up animate-duration-1000 animate-delay-[200ms] animate-ease-in-out animate-fill-both '
+      className='flex flex-col items-center justify-center pt-[5rem] h-[100vh] md:h-[100vh] animate-fade-up animate-duration-1000 animate-delay-[200ms] animate-ease-in-out animate-fill-both'
     >
 
       <div className='border-[#ff9d48] border-[.1rem] w-[80%]  rounded-[5rem] '>
