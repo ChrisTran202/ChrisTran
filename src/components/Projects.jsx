@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
-import Carousel from './carousel/Carousel'
+// import Carousel from './carousel/Carousel'
+import CarouselTwo from './carousel/Carousel-2'
+// import Carousel from './carousel/Carousel'
 // import Carousel from '../components/Carousel.jsx'
 // import { Carousel, IconButton } from '@material-tailwind/react';
+
 
 export const Projects = () => {
 
@@ -22,7 +25,8 @@ export const Projects = () => {
 
         {/* Carousel display */}
         <div className='items-center justify-center w-[100%] h-[100%] '>
-          <Carousel />
+          {/* <Carousel /> */}
+          <CarouselTwo />
         </div>
           
 
