@@ -14,8 +14,8 @@ export const Projects = () => {
   const rightArrow = '>'
 
   return (
-    <section className='flex flex-col items-center justify-center pt-[5rem] h-[100vh] animate-fade-up animate-once animate-ease-linear'>
-      <div className='border-[#ff9d48] border-[.1rem] w-[80%] h-[90vh] rounded-[5rem]'>
+    <section className='flex flex-col items-center justify-center pt-[3rem] animate-fade-up animate-once animate-ease-linear overflow-hidden scrollbar-hide '>
+      <div className='border-[#ff9d48] border-[.1rem] w-[80%] h-[85vh] rounded-[5rem]'>
         {/* title */}
         <h1 
           id='title' 
@@ -24,7 +24,7 @@ export const Projects = () => {
         </h1>
 
         {/* Carousel display */}
-        <div className='items-center justify-center w-[100%] h-[100%] '>
+        <div className='items-center justify-center w-[100%] '>
           {/* <Carousel /> */}
           <CarouselTwo />
         </div>

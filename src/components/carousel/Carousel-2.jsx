@@ -14,7 +14,7 @@ function CarouselTwo() {
     },
     {
       title: 'RimZ',
-      description: 'I really love the car scence, this was create for my car enthusiast people. Created with Vite, Redux, Tailwind CSS.',
+      description: 'I really love the car scence, this was create for my car enthusiast people.Created with Vite, Redux, Tailwind CSS.',
       image: page1,
       link: 'https://rimz-one.vercel.app/'
     },
@@ -44,9 +44,9 @@ function CarouselTwo() {
               <div key={index} className=''>
                 <div className='flex flex-col items-center justify-center h-auto '>
                   <a target='_blank' href={project.link}><img src={project.image}  className='rounded-[2rem] h-[60vh] hover:scale-105 ease-in-out duration-500 cursor-pointer  ' /></a>
-                  <div className="flex flex-col items-center justify-center text-center w-[20vw]">
+                  <div className="flex flex-col items-center justify-center text-center w-[60vw] md:w-[30vw]">
                     <h1  src={project.title} className="text-white text-2xl">{project.title}</h1>
-                    <p src={project.description} className="text-white text-lg">{project.description}</p>
+                    <p src={project.description} className="text-white text-[15px]">{project.description}</p>
                   </div>
                 </div>
               </div>
