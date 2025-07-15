@@ -43,9 +43,9 @@ function CarouselTwo() {
             {projects.map((project, index) => (
               <div key={index} className=''>
                 <div className='flex flex-col items-center justify-center h-auto '>
-                  <a target='_blank' href={project.link}><img src={project.image}  className='rounded-[2rem] h-[60vh] hover:scale-105 ease-in-out duration-500 cursor-pointer  ' /></a>
+                  <a target='_blank' href={project.link}><img src={project.image}  className='rounded-[2rem] w-[70vw] h-[40vh] md:h-[60vh] hover:scale-105 ease-in-out duration-500 cursor-pointer  ' /></a>
                   <div className="flex flex-col items-center justify-center text-center w-[60vw] md:w-[30vw]">
-                    <h1  src={project.title} className="text-white text-2xl">{project.title}</h1>
+                    <h1  src={project.title} className="text-white text-2xl m-5">{project.title}</h1>
                     <p src={project.description} className="text-white text-[15px]">{project.description}</p>
                   </div>
                 </div>
